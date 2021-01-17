@@ -1,0 +1,16 @@
+version: "3"
+
+networks:
+  frontend:
+    external: false
+
+services:
+  logohub:
+    container_name: logohub
+    build:
+      context: ./dist
+      dockerfile: ../Dockerfile
+    networks:
+      - frontend
+    ports:
+      - 7011:80
