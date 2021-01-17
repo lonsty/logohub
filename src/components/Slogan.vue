@@ -1,7 +1,7 @@
 <style lang="stylus" scoped>
-p 
+p
     color #fff
-.prefix 
+.prefix
     color #fff
     padding 5px 0px
 .postfix
@@ -15,15 +15,15 @@ p
 <template>
     <div class="slogan">
         <h3>
-            <span class="prefix">Logoly</span>
-            <span class="postfix">Pro</span>
+            <span class="prefix">Logo</span>
+            <span class="postfix">Hub</span>
         </h3>
         <p>
-            Logoly.pro is a creative logo generator, you can generate logo similar to Pornhub, YouTube, and more.
+            LogoHub is a creative logo generator, you can generate logo similar to PornHub, YouTube, and more.
             <br><br>
             <strong style="color:#f90">
-            If you think this project is funny, please 
-            <a href="https://github.com/bestony/logoly">
+            If you think this project is funny, please
+            <a href="https://github.com/lonsty/logohub">
             <img src="https://img.shields.io/badge/give%20me-a%20star-green.svg" />
             </a>
             </strong>
